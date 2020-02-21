@@ -1,1 +1,1 @@
-# demo-jquery-buttons
+# Jquery Demo on what buttons could do
