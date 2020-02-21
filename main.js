@@ -35,14 +35,14 @@ $(document).ready(function () { //verifies all HTML loaded
 
 	$("#swap-div").on("click", function (e) {
 		e.preventDefault(); //disable the button's default behavior
-		$(".container").addClass('newDiv');
+		$(".dog").addClass('newDiv');
 		$("#swap-div").prop('disabled', true);
 	});
 
-	$("#hide-div").on("click", function (e) {
+	$("#hide-border").on("click", function (e) {
 		e.preventDefault(); //disable the button's default behavior
 		$(".dog").addClass('noBorder');
-		$("#hide-div").prop('disabled', true);
+		$("#hide-border").prop('disabled', true);
 	});
 
 	// reset all IDs and classes
