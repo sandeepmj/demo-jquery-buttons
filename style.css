@@ -1,0 +1,78 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-bottom: 200px;
+    /* background-color: blue; */
+}
+
+.dog {
+    width: 50%;
+    border-left: solid;
+    padding: 10px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.authors {
+    margin-left: 100px;
+}
+
+.quote {
+    padding: 20px;
+}
+
+.headline {
+    font-family: georgia, serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: red;
+}
+
+.place-btns {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.button {
+    display: block;
+}
+
+/* style to fade disable button */
+button:disabled {
+    opacity: .5;
+}
+
+/* .somePadding {
+    padding: 5px;
+    margin-left: 250px;
+} */
+.someStyling {
+    color: blue;
+}
+
+.biggerText {
+    font-size: 1.5em;
+}
+
+.addBorder {
+    border-style: solid;
+    border-color: red;
+}
+
+.noBorder {
+    border-left: none;
+}
+
+.newDiv {
+    margin: 0 auto;
+    max-width: 400px;
+    background-color: gray;
+}
+
+.hide-pretty-please {
+    display: none;
+}
